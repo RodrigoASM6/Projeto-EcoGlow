@@ -36,29 +36,6 @@ FontAwesome: Ícones para funcionalidades e redes sociais.
 
 Google Fonts: Uso da fonte "Poppins" para um design moderno.
 
-## Estrutura do Projeto
-O projeto está organizado da seguinte forma:
-
-/landing-page-ecoglow
-├── index.html # Arquivo principal HTML
-├── CSS/
-│ ├── estilos.css # Estilos gerais
-│ ├── header.css # Estilos do header
-│ ├── main.css # Estilos da seção principal
-│ ├── funcionalidades.css # Estilos da seção de funcionalidades
-│ ├── beneficios.css # Estilos da seção de benefícios
-│ ├── clientes.css # Estilos da seção de depoimentos
-│ ├── chamada.css # Estilos da seção de chamada para ação
-│ └── footer.css # Estilos do rodapé
-├── imagens/ # Pasta contendo as imagens do projeto
-│ ├── Adobe Express - file.png
-│ ├── Lampada1.jpeg
-│ ├── lampada2.jpeg
-│ └── lampada3.jpeg
-└── README.md # Documentação do projeto
-
-Clone o repositório:
-
 ## Design Responsivo
 O projeto foi desenvolvido com foco em responsividade, garantindo uma experiência consistente em diferentes dispositivos (desktop, tablet e mobile). Media queries foram utilizadas para ajustar o layout conforme o tamanho da tela.
 
