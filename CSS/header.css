@@ -1,84 +1,83 @@
 /* Header */
 header {
-    background-color: #27ae60;
-    color: white;
-    padding: 40px 20px;
-  }
-  
+  background-color: #27ae60;
+  color: white;
+  padding: 40px 20px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.header-image {
+  flex: 1;
+}
+
+.header-image img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.header-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.header-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.header-buttons button {
+  background-color: white;
+  color: #27ae60;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.header-buttons button:hover {
+  background-color: #afaeae;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
   .header-content {
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 40px;
+    flex-direction: column;
+    text-align: center;
   }
-  
-  .header-text {
-    flex: 1;
-  }
-  
-  .header-image {
-    flex: 1;
-  }
-  
-  .header-image img {
-    max-width: 50%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
+
   .header-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 2rem;
   }
-  
+
   .header-text h2 {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
+    font-size: 1.2rem;
   }
-  
+
   .header-buttons {
-    display: flex;
-    gap: 20px;
+    justify-content: center;
   }
-  
-  .header-buttons button {
-    background-color: white;
-    color: #27ae60;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+
+  .header-image img {
+    max-width: 80%;
   }
-  
-  .header-buttons button:hover {
-    background-color: #afaeae;
-  }
-  
-  /* Responsividade */
-  
-  @media (max-width: 768px) {
-    .header-content {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .header-text h1 {
-      font-size: 2rem;
-    }
-  
-    .header-text h2 {
-      font-size: 1.2rem;
-    }
-  
-    .header-buttons {
-      justify-content: center;
-    }
-  
-    .header-image img {
-      max-width: 80%;
-    }
-  }
-  
+}
