@@ -46,6 +46,12 @@ Fontes: Google Fonts
 
 Imagens: Banco de imagens gratuitas (exemplo: Unsplash, Pexels).
 
+## Imagens 
+
+![Image](https://github.com/user-attachments/assets/1630a504-a917-4785-a0ec-fa06a2f8e015)
+
+![Image](https://github.com/user-attachments/assets/096bcdaa-de40-4589-9a73-6b6a914e817b)
+
 
 Feito por Rodrigo Almeida
 Contato: rodrigomareque8@gmail.com
