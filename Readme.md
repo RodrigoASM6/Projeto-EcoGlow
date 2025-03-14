@@ -39,40 +39,12 @@ Google Fonts: Uso da fonte "Poppins" para um design moderno.
 ## Design Responsivo
 O projeto foi desenvolvido com foco em responsividade, garantindo uma experiência consistente em diferentes dispositivos (desktop, tablet e mobile). Media queries foram utilizadas para ajustar o layout conforme o tamanho da tela.
 
-## Melhorias Futuras
-Adicionar animações suaves para melhorar a experiência do usuário.
-
-Implementar funcionalidades interativas com JavaScript.
-
-Integrar um formulário de contato no rodapé.
-
-Adicionar mais seções, como perguntas frequentes (FAQ) ou um blog.
-
-## Contribuição
-Contribuições são bem-vindas! Siga os passos abaixo:
-
-Faça um fork do projeto.
-
-Crie uma branch para sua feature (git checkout -b feature/nova-feature).
-
-Commit suas mudanças (git commit -m 'Adicionando nova feature').
-
-Push para a branch (git push origin feature/nova-feature).
-
-Abra um Pull Request.
-
 ## Créditos
 Ícones: FontAwesome
 
 Fontes: Google Fonts
 
 Imagens: Banco de imagens gratuitas (exemplo: Unsplash, Pexels).
-
-
-## Imagens do site
-
-!(./imagens/Mackbook.png)
-!(./imagens/Smarthphone.png)
 
 
 Feito por Rodrigo Almeida
