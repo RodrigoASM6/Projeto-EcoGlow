@@ -1,9 +1,56 @@
  /* Estilos Gerais */
 
  body {
-    font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Header */
+  header {
+    background-color: #27ae60; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    padding: 40px 20px; /* Espaçamento interno */
+  }
+  
+  .header-content {
+   
+  }
+  
+  .header-text {
+    flex: 1; /* Ocupa o espaço disponível */
+    text-align: right; /* Alinhar texto à direita */
+    padding-right: 40px; /* Espaçamento entre texto e imagem */
+  }
+  
+  .header-text h1 {
+    font-size: 2.5rem; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+  }
+  
+  .header-text h2 {
+    font-size: 1.5rem; /* Tamanho do subtítulo */
+    margin-bottom: 20px; /* Espaçamento abaixo do subtítulo */
+  }
+  
+  .header-buttons button {
+    background-color: white; /* Fundo branco */
+    color: #27ae60; /* Texto verde */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px; /* Espaçamento entre botões */
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-buttons button:hover {
+    background-color: #f1f1f1; /* Cor ao passar o mouse */
+  }
+  
+  .header-image img {
+    max-width: 100%; /* Garantir que a imagem não ultrapasse o container */
+    height: auto;
+    border-radius: 10px; /* Bordas arredondadas */
+  }
 
