@@ -1,0 +1,58 @@
+/* Seção beneficios */
+
+.beneficios {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .beneficios h1 {
+    font-size: 2.5rem;
+    color: #27ae60;
+    margin-bottom: 10px;
+  }
+  
+  .beneficios h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  /* Estilo da Lista */
+  .beneficios ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .beneficios ul li {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .beneficios ul li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo dos Ícones */
+  .beneficios ul li i {
+    font-size: 1rem;
+    color: #27ae60;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .beneficios ul li {
+      width: 100%;
+    }
+  }
