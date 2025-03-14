@@ -1,0 +1,57 @@
+/* Estilos Gerais para a Seção */
+.funcionalidades {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .funcionalidades h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .funcionalidades h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  /* Estilo da Lista */
+  .funcionalidades ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .funcionalidades ul li {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .funcionalidades ul li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo dos Ícones */
+  .funcionalidades ul li i {
+    font-size: 2rem;
+    color: #27ae60;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .funcionalidades ul li {
+      width: 100%;
+    }
+  }
